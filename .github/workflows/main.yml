@@ -3,8 +3,6 @@ name: F5 Ansible CI
 on:
   pull_request:
   push:
-  schedule:
-    - cron: '*/5 * * * *'
 
 jobs:
   build:
